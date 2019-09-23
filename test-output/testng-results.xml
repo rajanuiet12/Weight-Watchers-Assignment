@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29186" started-at="2019-09-23T03:52:09Z" finished-at="2019-09-23T03:52:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29186" started-at="2019-09-23T03:52:09Z" finished-at="2019-09-23T03:52:38Z">
+      <class name="testCases.WebTest">
+        <test-method status="PASS" signature="iniExtentReport()[pri:0, instance:testCases.WebTest@53b32d7]" name="iniExtentReport" is-config="true" duration-ms="240" started-at="2019-09-23T03:52:09Z" finished-at="2019-09-23T03:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniExtentReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.WebTest@53b32d7]" name="setUp" is-config="true" duration-ms="11183" started-at="2019-09-23T03:52:09Z" finished-at="2019-09-23T03:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="studioDetails(java.lang.String, java.lang.String)[pri:0, instance:testCases.WebTest@53b32d7]" name="studioDetails" duration-ms="16317" started-at="2019-09-23T03:52:21Z" data-provider="studio_TestData" finished-at="2019-09-23T03:52:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10011]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studioDetails -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.WebTest@53b32d7]" name="tearDown" is-config="true" duration-ms="2" started-at="2019-09-23T03:52:37Z" finished-at="2019-09-23T03:52:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=studioDetails status=SUCCESS method=WebTest.studioDetails(java.lang.String, java.lang.String)[pri:0, instance:testCases.WebTest@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.WebTest@53b32d7]" name="tearDown" is-config="true" duration-ms="1032" started-at="2019-09-23T03:52:37Z" finished-at="2019-09-23T03:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeSuite()[pri:0, instance:testCases.WebTest@53b32d7]" name="closeSuite" is-config="true" duration-ms="369" started-at="2019-09-23T03:52:38Z" finished-at="2019-09-23T03:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSuite -->
+      </class> <!-- testCases.WebTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
